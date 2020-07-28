@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.in{
+    position: absolute;
+    top: 82px;
+    left: 510px;
+}
+#list{
+    margin-top: 24px;
+}
+#list li{
+    margin-bottom: 5px;
+    list-style: none;
+    color: rgb(10, 10, 53);
+}
+
+.editBtn,.delBtn{
+    padding: 5px;
+    margin: 0px 3px;
+    float: right;
+    outline: none;
+    border: none;
+}
+
+.editBtn{
+    background-color: rgb(205, 243, 255);
+    border-radius: 5px;
+    color: rgb(10, 10, 53);
+    
+}
+
+.delBtn{
+    background-color: rgb(216, 182, 182);
+    border-radius: 5px;
+    color: rgb(10, 10, 53);
+}
+
+.add{
+    background-color: rgb(2, 54, 2);
+    border-radius: 5px;
+    color: lightpink;
+}
+
+.del{
+    background-color: red;
+    border-radius: 5px;
+    color: lightpink;
+}
+
+#todo-item{
+    border-radius: 5px;
+}
